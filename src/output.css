@@ -379,6 +379,9 @@
   .w-\[2px\] {
     width: 2px;
   }
+  .w-\[10\%\] {
+    width: 10%;
+  }
   .w-\[52px\] {
     width: 52px;
   }
@@ -396,12 +399,6 @@
   }
   .w-\[230px\] {
     width: 230px;
-  }
-  .w-\[250px\] {
-    width: 250px;
-  }
-  .w-\[full\] {
-    width: full;
   }
   .w-fit {
     width: fit-content;
@@ -585,6 +582,9 @@
   }
   .p-\[0px_5px_0_8px\] {
     padding: 0px 5px 0 8px;
+  }
+  .p-\[5px\] {
+    padding: 5px;
   }
   .p-\[5px_5px_0_8px\] {
     padding: 5px 5px 0 8px;
