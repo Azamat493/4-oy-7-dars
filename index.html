@@ -15,9 +15,9 @@
     />
     <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <body class="bg-[var(--background)]">
+  <body class="bg-[var(--background)] relative">
     <div
-      class="absolute left-6 top-0 hidden md:flex flex-col items-center gap-3"
+      class="absolute left-6 top-0 hidden md:flex flex-col items-center gap-3 z-[10]"
     >
       <div class="w-[2px] h-[191px] bg-[#ABB2BF]"></div>
       <a
@@ -415,9 +415,7 @@
         </div>
       </section>
 
-      <section
-        class="py-16 relative max-w-[1366px] w-full bg-[var(--background)]"
-      >
+      <section class="py-16 relative max-w-[1366px] w-full">
         <img
           src="./images/Rectangle 25.png"
           alt=""
@@ -439,9 +437,10 @@
             </div>
             <a
               href="#"
-              class="font-medium text-base text-[color:var(--white)] font-family whitespace-nowrap"
-              >View all ~~></a
+              class="font-medium text-base text-[color:var(--white)] font-family whitespace-nowrap transition-transform duration-300 hover:scale-105"
             >
+              View all ~~>
+            </a>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="border border-[var(--gray)]">
@@ -557,6 +556,144 @@
                       Live <~>
                     </button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-16">
+        <div class="max-w-[1366px] mx-auto w-[80%] px-6">
+          <div class="flex items-center gap-[10px]">
+            <h2
+              class="font-medium text-[24px] sm:text-[32px] text-[color:var(--white)] font-family"
+            >
+              <span class="text-[color:var(--primary)]">#</span>skills
+            </h2>
+            <div class="w-full sm:w-[239px] h-[2px] bg-[var(--primary)]"></div>
+          </div>
+          <div
+            class="flex lg:flex-row flex-col lg:items-start items-center gap-[35px] mt-8"
+          >
+            <div class="max-w-[349px] w-full relative h-[282px]">
+              <img
+                src="./images/Dots.png"
+                alt=""
+                class="absolute top-[25%] w-[63px] h-[63px]"
+              />
+              <img
+                src="./images/Rectangle 24.png"
+                alt=""
+                class="absolute top-[10%] right-0"
+              />
+              <img
+                src="./images/Logo.png"
+                alt=""
+                class="absolute -bottom-[15%] left-5 w-[113px] h-[113px]"
+              />
+              <img
+                src="./images/Dots.png"
+                alt=""
+                class="absolute bottom-[15%] left-[60%] w-[63px] h-[63px]"
+              />
+              <img
+                src="./images/Rectangle 24.png"
+                alt=""
+                class="absolute bottom-[10%] -right-[10%] w-[52px] h-[52px]"
+              />
+            </div>
+            <div
+              class="grid 3xl:grid-cols-3 lgg:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 3xl:gap-0 gap-3 ml-0 md:ml-[90px] 3xl:ml-[50px] mt-[50px]"
+            >
+              <div
+                class="border border-[color:var(--gray)] px-0 py-2 border-solid md:w-[178px] w-full h-auto md:h-[103px]"
+              >
+                <h3
+                  class="font-semibold p-[0px_5px_0_8px] mb-1 text-base text-[color:var(--white)] font-family"
+                >
+                  Languages
+                </h3>
+                <div
+                  class="border-t p-[5px_5px_0_8px] border-t-[color:var(--gray)] border-solid"
+                >
+                  <p
+                    class="font-normal text-base text-[color:var(--gray)] font-family"
+                  >
+                    TypeScript Lua Python JavaScript
+                  </p>
+                </div>
+              </div>
+              <div
+                class="border border-[color:var(--gray)] px-0 py-2 border-solid md:w-[178px] w-full h-auto md:h-[103px]"
+              >
+                <h3
+                  class="font-semibold p-[0px_5px_0_8px] mb-1 text-base text-[color:var(--white)] font-family"
+                >
+                  Databases
+                </h3>
+                <div
+                  class="border-t p-[5px_5px_0_8px] border-t-[color:var(--gray)] border-solid"
+                >
+                  <p
+                    class="font-normal text-base text-[color:var(--gray)] font-family"
+                  >
+                    SQLite PostgreSQL Mongo
+                  </p>
+                </div>
+              </div>
+              <div
+                class="border border-[color:var(--gray)] px-0 py-2 border-solid md:w-[200px] w-full h-auto md:h-[132px]"
+              >
+                <h3
+                  class="font-semibold p-[0px_5px_0_8px] mb-1 text-base text-[color:var(--white)] font-family"
+                >
+                  Tools
+                </h3>
+                <div
+                  class="border-t p-[5px_5px_0_8px] border-t-[color:var(--gray)] border-solid"
+                >
+                  <p
+                    class="font-normal text-base text-[color:var(--gray)] font-family"
+                  >
+                    VSCode Neovim Linux Figma XFCE Arch<br />Git Font Awesome
+                  </p>
+                </div>
+              </div>
+              <div
+                class="lgg:col-start-2 border border-[color:var(--gray)] px-0 py-2 border-solid md:w-[178px] w-full h-auto md:h-[103px]"
+              >
+                <h3
+                  class="font-semibold p-[0px_5px_0_8px] mb-1 text-base text-[color:var(--white)] font-family"
+                >
+                  Other
+                </h3>
+                <div
+                  class="border-t p-[5px_5px_0_8px] border-t-[color:var(--gray)] border-solid"
+                >
+                  <p
+                    class="font-normal text-base text-[color:var(--gray)] font-family"
+                  >
+                    HTML CSS EJS SCSS REST Jinja
+                  </p>
+                </div>
+              </div>
+              <div
+                class="border border-[color:var(--gray)] px-0 py-2 border-solid md:w-[196px] w-full h-auto md:h-[132px] mt-0 3xl:mt-[15px]"
+              >
+                <h3
+                  class="font-semibold p-[0px_5px_0_8px] mb-1 text-base text-[color:var(--white)] font-family"
+                >
+                  Frameworks
+                </h3>
+                <div
+                  class="border-t p-[5px_5px_0_8px] border-t-[color:var(--gray)] border-solid"
+                >
+                  <p
+                    class="font-normal text-base text-[color:var(--gray)] font-family"
+                  >
+                    React Vue<br />Disnake Discord.js Flask Express.js
+                  </p>
                 </div>
               </div>
             </div>
