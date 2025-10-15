@@ -14,6 +14,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        overflow-x: clip;
+      }
+    </style>
   </head>
   <body class="bg-[var(--background)] relative mx-auto max-w-[1366px] w-full">
     <div
@@ -302,6 +309,7 @@
           <div class="flex flex-col lg:flex-row items-center gap-8">
             <div class="w-full lg:w-[60%]">
               <h1
+                data-aos="fade-up"
                 class="font-semibold text-[28px] sm:text-[32px] text-[color:var(--white)] font-family mb-6"
               >
                 Elias is a
@@ -312,11 +320,15 @@
                 >
               </h1>
               <p
+                data-aos="fade-up"
+                data-aos-delay="100"
                 class="font-normal text-base leading-[156%] text-[color:var(--gray)] font-family mb-6"
               >
                 He crafts responsive websites where technologies meet creativity
               </p>
               <button
+                data-aos="fade-up"
+                data-aos-delay="200"
                 class="border cursor-pointer border-[color:var(--primary)] px-4 py-2 bg-transparent text-[color:var(--white)] font-medium text-base font-family transition-all duration-300 hover:bg-[color:var(--primary)] hover:text-[color:var(--white)]"
               >
                 Contact me !!
@@ -366,6 +378,7 @@
           class="absolute right-0 top-[60%] -translate-y-1/2 hidden lg:block"
         />
         <div
+          data-aos="zoom-in"
           class="max-w-[800px] mx-auto relative border border-[var(--gray)] p-6 flex flex-col items-center"
         >
           <svg
@@ -427,6 +440,7 @@
           >
             <div class="flex items-center gap-[10px]">
               <h2
+                data-aos="fade-right"
                 class="font-medium text-[24px] sm:text-[32px] text-[color:var(--white)] font-family"
               >
                 <span class="text-[color:var(--primary)]">#</span>projects
@@ -443,7 +457,11 @@
             </a>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22.jpg"
@@ -485,7 +503,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22.png"
@@ -522,7 +544,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22 (1).png"
@@ -567,6 +593,7 @@
         <div class="max-w-[1366px] mx-auto w-[80%] px-6">
           <div class="flex items-center gap-[10px]">
             <h2
+              data-aos="fade-right"
               class="font-medium text-[24px] sm:text-[32px] text-[color:var(--white)] font-family"
             >
               <span class="text-[color:var(--primary)]">#</span>skills
@@ -576,7 +603,11 @@
           <div
             class="flex lg:flex-row flex-col lg:items-start items-center gap-[35px] mt-8"
           >
-            <div class="max-w-[349px] sm:block hidden w-full relative h-[282px]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              class="max-w-[349px] sm:block hidden w-full relative h-[282px]"
+            >
               <img
                 src="./images/Dots.png"
                 alt=""
@@ -604,6 +635,8 @@
               />
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="100"
               class="grid 3xl:grid-cols-3 lgg:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 3xl:gap-0 gap-3 ml-0 md:ml-[90px] 3xl:ml-[50px] mt-[50px]"
             >
               <div
@@ -717,6 +750,7 @@
         <div class="max-w-[1366px] mx-auto w-[80%] px-6 py-12">
           <div class="flex mb-[20px] items-center gap-[10px]">
             <h2
+              data-aos="fade-right"
               class="font-medium text-[24px] sm:text-[32px] text-[color:var(--white)] font-family"
             >
               <span class="text-[color:var(--primary)]">#</span>about-me
@@ -726,7 +760,7 @@
           <div
             class="flex flex-col lg:flex-row gap-12 justify-between relative"
           >
-            <div class="w-full md:w-[50%] space-y-6">
+            <div data-aos="fade-up" class="w-full md:w-[50%] space-y-6">
               <p
                 class="mb-4 font-normal text-base leading-[162%] text-[color:var(--gray)] font-family"
               >
@@ -754,6 +788,7 @@
               </button>
             </div>
             <div
+              data-aos="fade-left"
               class="relative mt-8 md:mt-0 flex justify-center lg:justify-end"
             >
               <img
@@ -788,6 +823,7 @@
         <div class="max-w-[1366px] w-[80%] mx-auto px-6">
           <div class="flex mb-[20px] items-center gap-[10px]">
             <h2
+              data-aos="fade-right"
               class="font-medium text-[24px] sm:text-[32px] text-[color:var(--white)] font-family"
             >
               <span class="text-[color:var(--primary)]">#</span>contacts
@@ -797,7 +833,7 @@
           <div
             class="flex flex-col mt-[25px] lg:flex-row gap-12 justify-between items-center lg:items-start"
           >
-            <div class="w-full lg:w-2/3 space-y-6">
+            <div data-aos="fade-up" class="w-full lg:w-2/3 space-y-6">
               <p
                 class="font-medium text-base text-[color:var(--gray)] font-family w-full lg:w-[72%]"
               >
@@ -805,7 +841,7 @@
                 other request or question, don't hesitate to contact me.
               </p>
             </div>
-            <div class="mt-6 lg:mt-0">
+            <div data-aos="fade-left" class="mt-6 lg:mt-0">
               <div
                 class="border border-[color:var(--gray)] w-full sm:w-[204px] h-auto p-4 border-solid"
               >
@@ -967,5 +1003,13 @@
         © Copyright 2022. Made by Elias
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease",
+        once: true,
+      });
+    </script>
   </body>
 </html>

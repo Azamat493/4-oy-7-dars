@@ -14,6 +14,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        overflow-x: clip;
+      }
+    </style>
   </head>
   <body class="bg-[var(--background)] relative mx-auto max-w-[1366px] w-full">
     <div
@@ -196,13 +203,13 @@
               <span class="text-[color:var(--primary)]">#</span>home
             </a>
             <a
-              href="./about.html"
+              href="./projects.html"
               class="font-medium text-[26px] text-[color:var(--gray)] font-family transition-colors duration-300 hover:text-[color:var(--white)]"
             >
               <span class="text-[color:var(--primary)]">#</span>works
             </a>
             <a
-              href="#about-me"
+              href="./about.html"
               class="font-medium text-[26px] text-[color:var(--gray)] font-family transition-colors duration-300 hover:text-[color:var(--white)]"
             >
               <span class="text-[color:var(--primary)]">#</span>about-me
@@ -295,7 +302,10 @@
     </header>
 
     <main>
-      <section class="py-16 relative max-w-[1366px] w-full mx-auto">
+      <section
+        class="py-16 relative max-w-[1366px] w-full mx-auto"
+        data-aos="fade-up"
+      >
         <img
           src="./images/Frame 28.png"
           alt=""
@@ -308,11 +318,14 @@
         />
         <div class="max-w-[1366px] mx-auto w-[80%] px-6">
           <h2
+            data-aos="fade-right"
             class="font-semibold text-[32px] text-[color:var(--white)] font-family"
           >
             <span class="text-[color:var(--primary)]">/</span>projects
           </h2>
           <p
+            data-aos="fade-right"
+            data-aos-delay="100"
             class="font-normal text-base text-[color:var(--white)] font-family"
           >
             List of my projects
@@ -320,6 +333,7 @@
         </div>
         <div class="max-w-[1366px] mx-auto w-[80%] mt-[65px] px-6">
           <h1
+            data-aos="fade-right"
             class="font-medium text-[32px] text-[color:var(--white)] font-family"
           >
             <span class="text-[color:var(--primary)]">#</span>complete-apps
@@ -327,7 +341,11 @@
           <div
             class="grid mt-[35px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
           >
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22.jpg"
@@ -369,7 +387,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22 (1).png"
@@ -406,7 +428,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22.png"
@@ -443,7 +469,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22 (2).png"
@@ -480,7 +510,11 @@
                 </div>
               </div>
             </div>
-            <div class="border border-[var(--gray)]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              class="border border-[var(--gray)]"
+            >
               <div>
                 <img
                   src="./images/Rectangle 22 (3).png"
@@ -521,7 +555,9 @@
         </div>
       </section>
 
-      <section class="p-[0px_24px_60px_24px] relative max-w-[1366px] w-full mx-auto">
+      <section
+        class="p-[0px_24px_60px_24px] relative max-w-[1366px] w-full mx-auto"
+      >
         <img
           src="./images/Frame 31 (1).png"
           alt=""
@@ -539,6 +575,7 @@
         />
         <div class="max-w-[1366px] w-[80%] mx-auto">
           <h2
+            data-aos="fade-right"
             class="font-semibold text-[32px] text-[color:var(--white)] font-family sm:text-[28px] md:text-[32px]"
           >
             <span class="text-[color:var(--primary)]">#</span>small-projects
@@ -548,6 +585,8 @@
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px] gap-6 sm:gap-4"
           >
             <div
+              data-aos="fade-up"
+              data-aos-delay="0"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -573,6 +612,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="100"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -597,6 +638,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="200"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -621,6 +664,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="300"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -646,6 +691,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="400"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -670,6 +717,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="500"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -694,6 +743,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="600"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -718,6 +769,8 @@
               </button>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="700"
               class="border border-[color:var(--gray)] p-[8px_0px] flex flex-col"
             >
               <div
@@ -851,5 +904,13 @@
         © Copyright 2022. Made by Elias
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+        easing: "ease",
+      });
+    </script>
   </body>
 </html>
